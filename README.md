@@ -3,6 +3,7 @@
 ## 1. Team Information
 - **Sanshray Sathyan** - [PES2UG24AM146]
 - **Seelam Naga Dushyanth Reddy** - [PES2UG24AM149]
+- **Shonit Balaguragi** - [PES2UG24AM153]
 
 ---
 
