@@ -1,4 +1,4 @@
-# Linux Multi-Container Runtime
+<img width="890" height="383" alt="WhatsApp Image 2026-04-15 at 11 54 58 AM" src="https://github.com/user-attachments/assets/236b9064-733b-4f85-ae90-2d077f605184" /># Linux Multi-Container Runtime
 
 ## 1. Team Information
 - **Name 1** - [Insert SRN]
@@ -166,20 +166,14 @@ make clean
 
 ---
 
-## 3. Demo with Screenshots
+## 3. Demo with Screenshots![
+<img width="892" height="797" alt="WhatsApp Image 2026-04-15 at 11 55 18 AM" src="https://github.com/user-attachments/assets/ee0dec4e-7e8d-48aa-b603-17e678598ba2" />
+<img width="893" height="246" alt="WhatsApp Image 2026-04-15 at 11 56 10 AM" src="https://github.com/user-attachments/assets/b32c16a8-55b1-40d7-a162-8a123a268117" />
+<img width="893" height="445" alt="WhatsApp Image 2026-04-15 at 11 56 00 AM" src="https://github.com/user-attachments/assets/e9bb33a2-4ed7-4a9b-b880-3ab68127aed9" />
+<img width="721" height="299" alt="WhatsApp Image 2026-04-15 at 11 55 48 AM" src="https://github.com/user-attachments/assets/fa017b24-eab6-4b6c-bc2a-d80d99bb26f5" />
+<img width="893" height="791" alt="WhatsApp Image 2026-04-15 at 11 55 28 AM" src="https://github.com/user-attachments/assets/fb5b8523-11a0-4f88-8594-66444f30c22d" />
 
-| # | What is Demonstrated | Screenshot |
-|---|----------------------|------------|
-| 1 | **Multi-container supervision**: `engine ps` highlighting multiple endpoints active | *[Insert Screenshot 1]* <br> *Caption: Supervisor operating both instances concurrently.* |
-| 2 | **Metadata tracking**: Output displaying accurate Host PID + State | *[Insert Screenshot 2]* <br> *Caption: `sudo ./engine ps` identifying distinct sub-states.* |
-| 3 | **Bounded-buffer logging**: Aggressive container stdout dumping successfully | *[Insert Screenshot 3]* <br> *Caption: `sudo ./engine logs alpha` flushing pipeline safely.* |
-| 4 | **CLI and IPC**: Successful mapped `start` or `ps` IPC transmission | *[Insert Screenshot 4]* <br> *Caption: CLI mapped cleanly pushing to background Socket.* |
-| 5 | **Soft-limit warning**: `dmesg` tracking the `SOFT LIMIT` barrier breach | *[Insert Screenshot 5]* <br> *Caption: Native limit warning executing without forced closure.* |
-| 6 | **Hard-limit enforcement**: Kernel executing kill, reflected natively under `ps` | *[Insert Screenshot 6]* <br> *Caption: Hard Limit dynamically tearing down application structurally flag as `killed`.* |
-| 7 | **Scheduling experiment**: Tracing variations across `cpu1` and `cpu2` | *[Insert Screenshot 7]* <br> *Caption: Deterministic processing lag strictly isolated via priority maps.* |
-| 8 | **Clean teardown**: Process tree (`ps aux`) completely evacuated unconditionally | *[Insert Screenshot 8]* <br> *Caption: Zombies flushed seamlessly demonstrating stable SIGCHLD.* |
 
-*(Note: Replace the `*[Insert Screenshot ...]*` parameters natively inserting your physical graphical captures before formal finalization).*
 
 ---
 
